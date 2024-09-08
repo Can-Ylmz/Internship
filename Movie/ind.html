@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+
+      .head {
+        background-color: #dd6c6c;
+        padding: 40px;
+        text-align: center;
+        font-size: 20px;
+      }
+
+      .links {
+        list-style-type: none;
+        background-color: #333;
+        color: white;
+        display: flex;
+        justify-content: flex-start;
+        padding: 15px;
+      }
+
+      .links a {
+        padding: 16px 20px;
+        text-decoration: none;
+        color: white;
+        text-align: center;
+      }
+
+      .links a:hover {
+        background-color: #dd6c6c;
+        color: #333;
+      }
+
+      .main {
+        display: flex;
+      }
+
+      .left {
+        flex: 75%;
+      }
+
+      .right {
+        flex: 25%;
+        background-color: #ebe9e9;
+      }
+
+      @media (max-width: 800px) {
+        .main {
+          flex-direction: column;
+        }
+
+        .links {
+          flex-direction: column;
+          text-align: center;
+        }
+      }
+
+      .spacel {
+        background-color: #7c7b7b;
+        height: 200px;
+        margin: 10px;
+      }
+
+      .spacer {
+        background-color: #7c7b7b;
+        height: 200px;
+        margin: 10px;
+      }
+
+      .space {
+        background-color: #7c7b7b;
+        height: 60px;
+        margin: 10px;
+      }
+
+      p,
+      h2 {
+        margin: 10px;
+      }
+
+      h2 {
+        margin-top: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="head">
+      <h1>Lorem, ipsum dolor.</h1>
+      <h5>Lorem ipsum dolor sit amet consectetur.</h5>
+    </div>
+    <div>
+      <ul class="links">
+        <li><a href="#">Link 1</a></li>
+        <li><a href="#">Link 2</a></li>
+        <li><a href="#">Link 3</a></li>
+        <li><a href="#">Link 4</a></li>
+      </ul>
+    </div>
+    <div class="main">
+      <div class="left">
+        <div>
+          <h2>Lorem, ipsum.</h2>
+          <div class="spacel"></div>
+          <div>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure,
+              illo!
+            </p>
+          </div>
+        </div>
+        <div>
+          <h2>Lorem, ipsum.</h2>
+          <div class="spacel"></div>
+          <div>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure,
+              illo!
+            </p>
+          </div>
+        </div>
+        <div>
+          <h2>Lorem, ipsum.</h2>
+          <div class="spacel"></div>
+          <div>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure,
+              illo!
+            </p>
+          </div>
+        </div>
+        <div>
+          <h2>Lorem, ipsum.</h2>
+          <div class="spacel"></div>
+          <div>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure,
+              illo!
+            </p>
+          </div>
+        </div>
+        <div>
+          <h2>Lorem, ipsum.</h2>
+          <div class="spacel"></div>
+          <div>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure,
+              illo!
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="right">
+        <h2>Lorem, ipsum.</h2>
+        <div class="spacer"></div>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem
+          voluptatum maxime, vero unde soluta minima amet labore nemo
+          dignissimos necessitatibus.
+        </p>
+        <div class="space"></div>
+        <div class="space"></div>
+        <div class="space"></div>
+      </div>
+    </div>
+  </body>
+</html>
